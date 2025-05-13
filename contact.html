@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chevron_right"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reponsive.css" />
+
+    <script src="js/contact.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="images/TopHeader.gif" alt="" class="product-cart" />
+      </div>
+      <div class="main-content">
+        <a href="#"><img src="images/logo.svg" alt="midang" class="logo" /></a>
+        <nav class="button-search">
+          <input type="text" placeholder="Search" /><i
+            class="fa-solid fa-magnifying-glass"
+          ></i>
+        </nav>
+
+        <div class="temp">
+          <div class="header__top__right__auth">
+            <a href="html/login.html"><i class="fa fa-user"></i> Đăng nhập</a>
+          </div>
+          <div class="header__cart">
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-shopping-bag"></i> <span>Giỏ hàng</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="temp">
+          <div class="categories">
+            <a href="#" class="categories-header">
+              DANH MỤC SẢN PHẨM
+              <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+            </a>
+            <ul class="categories-content">
+              <li><a href="#">Tẩy trang</a></li>
+              <li><a href="#">Sữa rửa mặt</a></li>
+              <li><a href="#">Toner</a></li>
+              <li><a href="#">Serum</a></li>
+              <li><a href="#">Kem dưỡng</a></li>
+            </ul>
+          </div>
+          <button class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <nav class="nav">
+          <ul class="menu-list">
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="product.html">SẢN PHẨM</a></li>
+            <li><a href="contact.html">LIÊN HỆ</a></li>
+            <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+            <li><a href="lab-thuc-hanh.html">LAB THỰC HÀNH</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <button class="back-to-top" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div class="contact-section">
+      <h2>LIÊN HỆ</h2>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="contact-form-group">
+          <strong><label for="name">Tên:</label></strong>
+          <input type="text" id="name" placeholder="Tên" required />
+        </div>
+
+        <div class="contact-form-group">
+          <strong><label for="phone">Số điện thoại:</label></strong>
+
+          <input type="tel" id="phone" placeholder="+84" required />
+        </div>
+
+        <div class="contact-form-group">
+          <strong><label for="email">Email:</label></strong>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="example@gmail.com"
+            required
+          />
+        </div>
+
+        <div class="contact-form-group">
+          <strong><label for="subject">Tiêu đề:</label></strong>
+          <input type="text" id="subject" placeholder="Tiêu đề" required />
+        </div>
+
+        <div class="contact-form-group">
+          <strong><label for="message">Lời nhắn:</label></strong>
+
+          <textarea id="message" placeholder="Lời nhắn" required></textarea>
+        </div>
+
+        <div class="contact-form-center">
+          <strong><button type="submit">Gửi lời nhắn</button></strong>
+        </div>
+      </form>
+    </div>
+
+    <div class="tittle-dang-ki">
+      <h2>Đăng kí nhận thông tin mới nhất từ MiDang Cosmetics</h2>
+    </div>
+    <div class="div-dang-ki">
+      <form class="form-dang-ki">
+        <input type="email" placeholder="Nhập địa chỉ email của bạn" required />
+        <button type="submit">Đăng Kí</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div class="div-footer">
+        <div class="footer-column">
+          <a href=""
+            ><img src="images/logo.svg" alt="midang" class="logo-footer"
+          /></a>
+          <p>
+            MiDang Cosmetics đồ án website bán mỹ phẩm cuối kỳ môn học Thực hành
+            Nhập môn Web
+          </p>
+        </div>
+        <div class="footer-column">
+          <h2>Thông tin</h2>
+          <p class="footer-thong-tin">
+            Địa chỉ: 180 Cao Lỗ, Phường 4, Quận 8, TP Hồ Chí Minh <br />
+            Email: DH52200445@student.stu.edu.vn <br />
+            Điện thoại: (028) 38 505 520 <br />
+          </p>
+        </div>
+        <div class="footer-column">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.9544104258935!2d106.67525717405255!3d10.737997189408455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f62a90e5dbd%3A0x674d5126513db295!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgU8OgaSBHw7Ju!5e0!3m2!1svi!2s!4v1746768196454!5m2!1svi!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-bottom">
+          <hr />
+          <div class="footer-copyright">
+            Họ và tên: Trần Minh Đăng | MSSV: DH52200445 | Lớp: D22_TH04 | Nhóm
+            8 Thứ 3 Ca 2
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
