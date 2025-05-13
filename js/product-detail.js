@@ -4,7 +4,7 @@ const products = [{
     brand: "COCOON",
     price: "295.000₫",
     oldPrice: "450.000₫",
-    image: "/images/product01.jpg",
+    image: "images/product01.jpg",
     description: `
     Nước tẩy trang bí đao Cocoon 500ml là sản phẩm giúp làm sạch da hiệu quả, loại bỏ bụi bẩn, bã nhờn và lớp trang điểm mà không làm khô da. Với chiết xuất từ bí đao và các thành phần thiên nhiên, sản phẩm không chỉ làm sạch mà còn cung cấp độ ẩm, giúp làn da luôn mềm mịn và tươi mới.
     <br><p></p>
@@ -34,7 +34,7 @@ const products = [{
     brand: "COCOON",
     price: "295.000₫",
     oldPrice: "450.000₫",
-    image: "/images/product02.jpg",
+    image: "images/product02.jpg",
     description: `
     Kem dưỡng Thạch Bí Đao Cocoon 100ml là sản phẩm dưỡng da với chiết xuất từ bí đao tự nhiên, giúp cung cấp độ ẩm sâu cho da, làm mềm mịn và tăng cường sức sống cho làn da. Sản phẩm đặc biệt phù hợp với da khô và da thiếu nước, mang lại cảm giác tươi mát và nhẹ nhàng sau khi sử dụng.
     <br><p></p>
@@ -64,7 +64,7 @@ const products = [{
     brand: "NEUTROGENA",
     price: "105.000₫",
     oldPrice: "250.000₫",
-    image: "/images/product03.jpg",
+    image: "images/product03.jpg",
     description: `
     Kem dưỡng Neutrogena 50ML là sản phẩm giúp cấp ẩm sâu cho da, mang lại làn da mềm mại, mịn màng và tràn đầy sức sống. Sản phẩm phù hợp với mọi loại da, đặc biệt là da khô và da thiếu nước. Với công thức dưỡng ẩm vượt trội, sản phẩm giúp làm dịu da ngay lập tức và duy trì độ ẩm suốt cả ngày dài.
     <br><p></p>
@@ -94,7 +94,7 @@ const products = [{
     brand: "SIMPLE",
     price: "295.000₫",
     oldPrice: "450.000₫",
-    image: "/images/product04.jpg",
+    image: "images/product04.jpg",
     description: `
     Sữa rửa mặt Simple 150ml là sản phẩm làm sạch da hiệu quả, phù hợp cho mọi loại da, đặc biệt là da nhạy cảm. Với công thức không chứa xà phòng, sữa rửa mặt Simple giúp loại bỏ bụi bẩn, dầu thừa, và các tạp chất mà không làm khô da. Sản phẩm giúp duy trì độ ẩm tự nhiên cho da, mang lại cảm giác tươi mới, sạch thoáng và không gây kích ứng.
     <br><p></p>
@@ -124,7 +124,7 @@ const products = [{
     brand: "BIODERMA",
     price: "200.000₫",
     oldPrice: "350.000₫",
-    image: "/images/product05.jpg",
+    image: "images/product05.jpg",
     description: `
     Sữa rửa mặt Bioderma 500ml là sản phẩm làm sạch da hiệu quả, phù hợp cho mọi loại da, đặc biệt là da nhạy cảm và da dầu. Với công thức dịu nhẹ, sản phẩm không chứa xà phòng, không gây kích ứng, giúp loại bỏ bụi bẩn, dầu thừa và các tạp chất mà vẫn duy trì độ ẩm tự nhiên cho da. Sữa rửa mặt Bioderma giúp làn da sạch sẽ, mềm mịn và tươi mới mà không gây khô da.
     <br><p></p>
@@ -154,7 +154,7 @@ const products = [{
     brand: "THE ORDINARY",
     price: "280.000₫",
     oldPrice: "480.000₫",
-    image: "/images/product06.jpg",
+    image: "images/product06.jpg",
     description: `
     Serum The Ordinary Hyaluronic Acid 2% + B5 30ml là sản phẩm dưỡng da nổi bật giúp cấp ẩm sâu, phục hồi và làm dịu da. Với thành phần chính là Hyaluronic Acid 2% và Vitamin B5, serum này cung cấp độ ẩm tức thì cho da, làm giảm sự xuất hiện của nếp nhăn và mang lại làn da căng mọng, mềm mịn. 
     <br><p></p>
@@ -184,7 +184,7 @@ const products = [{
     brand: "CATAPHIL",
     price: "260.000₫",
     oldPrice: "365.000₫",
-    image: "/images/item1.png",
+    image: "images/item1.png",
     description: `
 Sữa rửa mặt dịu nhẹ Cataphil dành cho da nhạy cảm, giúp làm sạch da mà không gây kích ứng, duy trì độ ẩm tự nhiên của da.
 <br>
@@ -210,7 +210,7 @@ Thành phần dịu nhẹ, an toàn cho da nhạy cảm.
     brand: "BEPLAIN",
     price: "305.000₫",
     oldPrice: "565.000₫",
-    image: "/images/item2.png",
+    image: "images/item2.png",
     description: `
 Set chăm sóc da BEPLAIN gồm mặt nạ đất sét 120ml và serum phục hồi 30ml giúp làm sạch sâu và nuôi dưỡng làn da hiệu quả.
 <br>
@@ -236,7 +236,7 @@ Phù hợp cho mọi loại da, đặc biệt là da dầu mụn và da đang t�
     brand: "COCOON",
     price: "240.000₫",
     oldPrice: "340.000₫",
-    image: "/images/item3.png",
+    image: "images/item3.png",
     description: `
 Nước cân bằng Cocoon Nước Sen 310ml là sản phẩm dịu nhẹ với chiết xuất từ sen hồng vùng Đồng Tháp Mười, giúp thanh lọc và cấp ẩm cho làn da một cách hiệu quả.
 <br>
@@ -277,7 +277,7 @@ Toner Cocoon là lựa chọn lý tưởng cho chu trình chăm sóc da hằng n
     brand: "NUMBUZIN",
     price: "380.000₫",
     oldPrice: "430.000₫",
-    image: "/images/item4.png",
+    image: "images/item4.png",
     description: `
 Kem Dưỡng ẩm Numbuzin No.1 80ml là sản phẩm nổi bật đến từ thương hiệu chăm sóc da nổi tiếng NUMBUZIN Hàn Quốc. Với công thức dưỡng ẩm chuyên sâu cùng các chiết xuất lành tính, sản phẩm phù hợp cho cả làn da nhạy cảm, giúp phục hồi độ ẩm và cân bằng làn da một cách hiệu quả.
 <br>
@@ -324,7 +324,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "GARNIER",
     price: "210.000₫",
     oldPrice: "290.000₫",
-    image: "/images/item5.png",
+    image: "images/item5.png",
     description: `
     Serum Garnier 4% Vitamin C 30ml
     <br><p></p>
@@ -359,7 +359,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "GARNIER",
     price: "280.000₫",
     oldPrice: "480.000₫",
-    image: "/images/item6.png",
+    image: "images/item6.png",
     description: `
     Kem dưỡng ẩm Garnier Water Gel 50ml
     <br><p></p>
@@ -392,7 +392,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "NIACIN",
     price: "398.000₫",
     oldPrice: "440.000₫",
-    image: "/images/item7.png",
+    image: "images/item7.png",
     description: `
     Serum NIACIN Niacinamide 5% 30ml
     <br><p></p>
@@ -427,7 +427,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "RAVIEL",
     price: "299.000₫",
     oldPrice: "380.000₫",
-    image: "/images/item8.png",
+    image: "images/item8.png",
     description: `
     Serum RAVIEL Cica Panthenol 5% 30ml là tinh chất phục hồi da mạnh mẽ, được thiết kế đặc biệt cho làn da nhạy cảm, kích ứng và dễ tổn thương. Công thức kết hợp Cica (Chiết xuất rau má) cùng Panthenol 5% giúp làm dịu, dưỡng ẩm sâu và hỗ trợ tái tạo hàng rào bảo vệ da.
     <br><p></p>
@@ -460,7 +460,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "CARYOPHY",
     price: "399.000₫",
     oldPrice: "450.000₫",
-    image: "/images/item9.png",
+    image: "images/item9.png",
     description: `
     Toner Caryophy cấp ẩm ngừa mụn 300ml là sản phẩm nước cân bằng đến từ thương hiệu Caryophy Hàn Quốc, nổi bật với khả năng dưỡng ẩm sâu, làm dịu và hỗ trợ điều trị mụn cho da nhạy cảm và da mụn.
     <br><p></p>
@@ -493,7 +493,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "SKIN1004",
     price: "280.000₫",
     oldPrice: "360.000₫",
-    image: "/images/item10.png",
+    image: "images/item10.png",
     description: `
     Serum rau má SKIN1004 55ml là sản phẩm chăm sóc da nổi bật với chiết xuất từ rau má tự nhiên, có tác dụng làm dịu da, giảm viêm và kích ứng, đồng thời giúp cải thiện kết cấu da, làm sáng và đều màu da.
     <br><p></p>
@@ -524,7 +524,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "CERAVE",
     price: "235.000₫",
     oldPrice: "338.000₫",
-    image: "/images/item11.png",
+    image: "images/item11.png",
     description: `
     Gel dưỡng ẩm CeraVe 52ml là sản phẩm giúp duy trì độ ẩm cho da suốt cả ngày, đặc biệt phù hợp với những người có làn da khô hoặc da nhạy cảm. Công thức không chứa hương liệu, giúp làm dịu da, bảo vệ lớp màng ẩm tự nhiên của da.
     <br><p></p>
@@ -555,7 +555,7 @@ Sử dụng đều đặn mỗi ngày sáng và tối sau bước làm sạch v�
     brand: "OLAY",
     price: "349.000₫",
     oldPrice: "390.000₫",
-    image: "/images/item12.png",
+    image: "images/item12.png",
     description: `
     Kem dưỡng Olay 50g là sản phẩm dưỡng da nổi tiếng, giúp làm mềm mịn, cung cấp độ ẩm và bảo vệ làn da khỏi các tác nhân gây hại từ môi trường. Với công thức nhẹ nhàng, không gây nhờn rít, sản phẩm giúp cải thiện kết cấu da, mang lại làn da tươi sáng và khỏe mạnh.
     <br><p></p>
