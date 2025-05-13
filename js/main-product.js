@@ -3,7 +3,7 @@ document.querySelectorAll('.div-box-2').forEach(box => {
   if (id) {
     box.style.cursor = 'pointer';
     box.addEventListener('click', () => {
-      window.location.href = `html/product-detail.html?id=${id}`;
+      window.location.href = `product-detail.html?id=${id}`;
     });
   }
 });
